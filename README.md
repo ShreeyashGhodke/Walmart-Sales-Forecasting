@@ -103,33 +103,33 @@ Inference -
 
 1.1 Monthly Analysis
 
-   Inference -
+Inference -
    
-   1.June and July are the months where sales are highest.
+   1. June and July are the months where sales are highest.
    
-   2.Sales are lowest in month of January.
+   2. Sales are lowest in month of January.
    
 1.2 Quarterlty Analysis
 
    Inference -
    
-   1.Sales is highest in 2nd and 3rd quarter whereas 1st quarter is subdued.
+   1. Sales is highest in 2nd and 3rd quarter whereas 1st quarter is subdued.
    
-   1.3 Holiday Season Wise
+1.3 Holiday Season Wise
 
 Inference -
 
-1.Weekly sales during Holiday weeks are slightly higher than that of non-holiday weeks.
+1. Weekly sales during Holiday weeks are slightly higher than that of non-holiday weeks.
 
 1.4 Seasonality in Sales
 
 Inference -
 
-1.There is strong seasonality around the year end which makes sense as it's 'Thanksgiving','Christmas' and 'New Year' holiday season.
+1. There is strong seasonality around the year end which makes sense as it's 'Thanksgiving','Christmas' and 'New Year' holiday season.
 
-2.We can manage the inventory of stores according to the seasonality or high demand near holiday season.
+2. We can manage the inventory of stores according to the seasonality or high demand near holiday season.
 
-3.It is also evident that after holday season the sales are subdues around Jan end.
+3. It is also evident that after holday season the sales are subdues around Jan end.
 
 **2. Temperature Based**
 
@@ -137,15 +137,15 @@ Temperature
 
 Inference -
 
-1.It suggests that weekend sales are higher when tempreture is moderate i.e between range of 40F-80F.
+1. It suggests that weekend sales are higher when tempreture is moderate i.e between range of 40F-80F.
 
 Weather
 
 Inference -
 
-1.It is evident that weekend sales are higher when weather is 'Mild' and 'Warm' i.e suitable to outdoor activities.
+1. It is evident that weekend sales are higher when weather is 'Mild' and 'Warm' i.e suitable to outdoor activities.
 
-2.Extreme 'Cold' and 'Hot' weather is affecting sales negatively.
+2. Extreme 'Cold' and 'Hot' weather is affecting sales negatively.
 
 **3. Economy Based**
 
@@ -153,11 +153,11 @@ CPI - Inflation Based
 
 Inferences -
 
-1.Stores like 38 (0.812) and 44 (0.740) show a strong positive correlation. This suggests higher CPI values shows higher sales in these stores. It'smaybe due to respective customer demographics or economic conditions in these areas where stores are operating.
+1. Stores like 38 (0.812) and 44 (0.740) show a strong positive correlation. This suggests higher CPI values shows higher sales in these stores. It'smaybe due to respective customer demographics or economic conditions in these areas where stores are operating.
 
-2.Stores 36 shows a strong negative correlation which makes sense indicating bad economic conditions affecting sales.
+2. Stores 36 shows a strong negative correlation which makes sense indicating bad economic conditions affecting sales.
 
-3.Most of stores shows very small corelations indicating no impact on sales.
+3. Most of stores shows very small corelations indicating no impact on sales.
 
 **4. Store Based**
 
@@ -165,39 +165,39 @@ Inferences -
 
 Inferences -
 
-1.There is huge difference in sales data between stores, there maybe different demographic, geographic, economic factors affecting the same.
+1. There is huge difference in sales data between stores, there maybe different demographic, geographic, economic factors affecting the same.
 
 4.2 Top 10 Performing Stores & Worst 10 Performing Stores
 
 Inferences -
 
-1.Store no. 20 is top performing store contributing to nearly 4.5% of total sales and Top 10 performing stores contribute to 39% of total sales.
+1. Store no. 20 is top performing store contributing to nearly 4.5% of total sales and Top 10 performing stores contribute to 39% of total sales.
 
-2.Store no. 33 has lowest sales contributing to nearly 0.5% of total sales and Worst 10 performing stores contribute to 8.5% of total sales.
+2. Store no. 33 has lowest sales contributing to nearly 0.5% of total sales and Worst 10 performing stores contribute to 8.5% of total sales.
 
-3.The disparity between the top and bottom performers suggests significant variation in store performance liekly due to store size, location, regionaleconomic conditions, or customer base
+3. The disparity between the top and bottom performers suggests significant variation in store performance liekly due to store size, location, regionaleconomic conditions, or customer base
 
 **Suggestions -**
 
-1.We can utilize the success of top-performing stores to replicate best practices across the network.
+1. We can utilize the success of top-performing stores to replicate best practices across the network.
 
-2.High-performing stores should continue to receive support for expansion, customer retention while Low-performing stores need 'targeted strategies'like marketing campaigns, optimizing inventory based on customer interests, or improving customer footfall.
+2. High-performing stores should continue to receive support for expansion, customer retention while Low-performing stores need 'targeted strategies'like marketing campaigns, optimizing inventory based on customer interests, or improving customer footfall.
 
 4.4 Storewise performance in Holiday Season
 
 Inferences -
 
-1.Some stores perform really well whereas some store does not perform well even during holiday season.
+1. Some stores perform really well whereas some store does not perform well even during holiday season.
 
-2.In magnitude aspects store numbers like 3,5,30,33,36,38,44 didn't perform well in holiday season compared to other stores.
+2. In magnitude aspects store numbers like 3,5,30,33,36,38,44 didn't perform well in holiday season compared to other stores.
 
 **Stores to focus on in Holiday season - Store No. - 3,5,33,36,44**
 
 Inferences -
 
-1.It is evident that during holiday season, sales of these stores aren't much higher than before holiday season.
+1. It is evident that during holiday season, sales of these stores aren't much higher than before holiday season.
 
-2.We can have targeted marketing campaigns, promotional offers, incentives for customers to boost consumption in these stores.
+2. We can have targeted marketing campaigns, promotional offers, incentives for customers to boost consumption in these stores.
 
 # G. Feature Importance
 
@@ -205,23 +205,23 @@ SHAP (SHapley Additive exPlanations) - To interpret model outputs and analyse fe
 
 **Applications of SHAP:**
 
-Explain ability in Machine Learning Models: SHAP makes it easier to understand how complex machine models make decisions.
+1. Explain ability in Machine Learning Models: SHAP makes it easier to understand how complex machine models make decisions.
 
-Feature Importance Analysis: It shows us which parts are more important for better understanding.
+2. Feature Importance Analysis: It shows us which parts are more important for better understanding.
 
-Interpreting Black Box Models: SHAP works with both straightforward(LR,LogR) and complex models(DT,RF), making it simple to understand howthey work.
+3. Interpreting Black Box Models: SHAP works with both straightforward(LR,LogR) and complex models(DT,RF), making it simple to understand howthey work.
 
 # H. Choosing the Algorithm for the Project
 
-1.As it's Time series problem we can use SARIMAX, Prophet models.
+1. As it's Time series problem we can use SARIMAX, Prophet models.
 
-2.SARIMAX can handle external predictors unlike SARIMA but it doesn't handle the complex non-linear relationships between predictors.
+2. SARIMAX can handle external predictors unlike SARIMA but it doesn't handle the complex non-linear relationships between predictors.
 
-3.**Prophet** is more advanced easy to interpret model specifically for time series forecasting that can also handle **seasonality,trends, external predictors and non-linear relationships**.
+3. **Prophet** is more advanced easy to interpret model specifically for time series forecasting that can also handle **seasonality,trends, external predictors and non-linear relationships**.
 
-4.We can also use XGBoost after some feature engineering as data has some external factors affecting sales.
+4. We can also use XGBoost after some feature engineering as data has some external factors affecting sales.
 
-5.Though XGBoost specifically can't handle time series data it handles complex, non-linear relationships and feature interaction much more effectively than prophet.
+5. Though XGBoost specifically can't handle time series data it handles complex, non-linear relationships and feature interaction much more effectively than prophet.
 
 # I. Model Building
 
@@ -233,15 +233,15 @@ Achieved a Mean absolute percentage error (MAPE) of < 5% for predicting weekly s
 
 # K. Future Possibilities of the Project
 
-Waste Reduction: Can use forecasts to minimize overstock and reduce waste, especially for perishable items.
+1. Waste Reduction: Can use forecasts to minimize overstock and reduce waste, especially for perishable items.
 
-Supply Chain Planning: Support sustainability goals by optimizing supply chain planning.
+2. Supply Chain Planning: Support sustainability goals by optimizing supply chain planning.
 
-Marketing Campaigns: Identify optimal timing for promotions based on forecasted trends like before holiday season.
+3. Marketing Campaigns: Identify optimal timing for promotions based on forecasted trends like before holiday season.
 
-Capex Expansion: Planning where to focus and deploy the expenditure for further growth.
+4. Capex Expansion: Planning where to focus and deploy the expenditure for further growth.
 
-Revenue Analysis: Analysing the revenue generated by each store.
+5. Revenue Analysis: Analysing the revenue generated by each store.
 
 Inventory Management: Deciding when to expand and contract the inventory based on seasonality.
 
